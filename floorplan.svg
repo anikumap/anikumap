@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="960" height="250" role="img" aria-label="Floor plan of a small house. Each room is one of my projects: Dwelly, SprintVault, and TalentSift, which is still under construction.">
+  <style>
+    :root { --paper:#EEF2F6; --ink:#2E4763; --soft:#5A7088; --lit:#F3D27A; --hatch:#B9C6D4; }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper:#0E1824; --ink:#9DBBDC; --soft:#7C98B4; --lit:#2A3A2C; --hatch:#2C3D50; }
+    }
+    .bg { fill: var(--paper); }
+    .wall { fill:none; stroke:var(--ink); stroke-width:6; stroke-linecap:square; }
+    .thin { fill:none; stroke:var(--ink); stroke-width:1.5; }
+    .door { fill:none; stroke:var(--soft); stroke-width:1.5; }
+    .lit { fill: var(--lit); }
+    .win { fill: var(--paper); }
+    .hatchline { stroke: var(--hatch); stroke-width:1.5; }
+    text { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; fill: var(--ink); }
+    .room { font-size:24px; font-weight:600; letter-spacing:-0.3px; }
+    .note { font-size:13px; fill: var(--soft); }
+    .dim { font-size:11px; fill: var(--soft); }
+  </style>
+  <defs>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" class="hatchline"/>
+    </pattern>
+  </defs>
+
+  <rect class="bg" width="960" height="250"/>
+
+  <!-- rooms -->
+  <rect class="lit" x="20" y="20" width="440" height="200"/>
+  <rect fill="url(#hatch)" x="460" y="120" width="420" height="100"/>
+
+  <!-- walls, with gaps for doors -->
+  <path class="wall" d="M200 220 H20 V20 H880 V220 H240"/>
+  <path class="wall" d="M460 20 V150 M460 190 V220"/>
+  <path class="wall" d="M460 120 H760 M800 120 H880"/>
+
+  <!-- windows -->
+  <rect class="win" x="90" y="16" width="80" height="8"/>
+  <path class="thin" d="M90 17.5 H170 M90 22.5 H170 M90 16 V24 M170 16 V24"/>
+  <rect class="win" x="280" y="16" width="80" height="8"/>
+  <path class="thin" d="M280 17.5 H360 M280 22.5 H360 M280 16 V24 M360 16 V24"/>
+  <rect class="win" x="600" y="16" width="100" height="8"/>
+  <path class="thin" d="M600 17.5 H700 M600 22.5 H700 M600 16 V24 M700 16 V24"/>
+
+  <!-- door swings -->
+  <path class="door" d="M200 220 L200 180 A40 40 0 0 1 240 220"/>
+  <path class="door" d="M460 150 L500 150 A40 40 0 0 1 460 190"/>
+  <path class="door" d="M800 120 L800 160 A40 40 0 0 1 760 120"/>
+
+  <!-- labels -->
+  <text class="room" x="48" y="80">dwelly</text>
+  <text class="note" x="48" y="102">rental app for landlords and tenants</text>
+
+  <text class="room" x="524" y="68">sprintvault</text>
+  <text class="note" x="524" y="90">scrum board with git built in</text>
+
+  <text class="room" x="524" y="168">talentsift</text>
+  <text class="note" x="524" y="190">still framing the walls</text>
+
+  <!-- compass -->
+  <g transform="translate(920 60)">
+    <circle r="16" class="thin"/>
+    <path d="M0 -12 L5 4 L0 0 L-5 4 Z" fill="var(--ink)"/>
+    <text class="dim" x="-3.5" y="-22">N</text>
+  </g>
+
+  <!-- dimension line -->
+  <path class="thin" d="M20 238 H880 M20 233 V243 M880 233 V243"/>
+</svg>
