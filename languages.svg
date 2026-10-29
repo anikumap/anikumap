@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 170" width="480" height="170" role="img" aria-label="Languages I write most, by share of code on my public repos: TypeScript 76%, Kotlin 18%, PLpgSQL 5.2%, CSS 1.2%, JavaScript 0.2%.">
+  <style>
+    :root { --paper:#EEF2F6; --ink:#2E4763; --soft:#5A7088; }
+    @media (prefers-color-scheme: dark) { :root { --paper:#0E1824; --ink:#9DBBDC; --soft:#7C98B4; } }
+    .bg { fill: var(--paper); }
+    text { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; fill: var(--ink); }
+    .title { font-size:16px; font-weight:600; letter-spacing:-0.2px; }
+    .lang { font-size:13px; }
+    .pct { fill: var(--soft); }
+  </style>
+  <rect class="bg" width="480" height="170" rx="6"/>
+  <text class="title" x="20" y="34">Languages I write most</text>
+  <clipPath id="bar"><rect x="20" y="52" width="440" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#bar)"><rect x="20.00" y="52" width="332.95" height="10" fill="#3178c6"/><rect x="352.95" y="52" width="77.83" height="10" fill="#A97BFF"/><rect x="430.78" y="52" width="23.04" height="10" fill="#336790"/><rect x="453.82" y="52" width="5.16" height="10" fill="#663399"/><rect x="458.99" y="52" width="1.01" height="10" fill="#f1e05a"/></g>
+  <circle cx="25" cy="88" r="5" fill="#3178c6"/><text class="lang" x="36" y="92">TypeScript <tspan class="pct">76%</tspan></text>
+  <circle cx="245" cy="88" r="5" fill="#A97BFF"/><text class="lang" x="256" y="92">Kotlin <tspan class="pct">18%</tspan></text>
+  <circle cx="25" cy="112" r="5" fill="#336790"/><text class="lang" x="36" y="116">PLpgSQL <tspan class="pct">5.2%</tspan></text>
+  <circle cx="245" cy="112" r="5" fill="#663399"/><text class="lang" x="256" y="116">CSS <tspan class="pct">1.2%</tspan></text>
+  <circle cx="25" cy="136" r="5" fill="#f1e05a"/><text class="lang" x="36" y="140">JavaScript <tspan class="pct">0.2%</tspan></text>
+</svg>

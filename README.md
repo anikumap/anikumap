@@ -42,7 +42,4 @@ The drawing above is roughly what my GitHub looks like right now: one room peopl
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=anikumap&layout=compact&hide_border=true&bg_color=0E1824&title_color=9DBBDC&text_color=7C98B4">
-  <img alt="Languages I write most, by share of code on my public repos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikumap&layout=compact&hide_border=true&bg_color=EEF2F6&title_color=2E4763&text_color=5A7088">
-</picture>
+<img src="./languages.svg" alt="Languages I write most, by share of code on my public repos (forks not counted). Updated daily." width="480">
