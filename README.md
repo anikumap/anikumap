@@ -1,10 +1,10 @@
-<img src="./floorplan.svg" alt="Floor plan of a small house where each room is one of my projects: Dwelly, SprintVault, and TalentSift, which is still under construction." width="100%">
+<img src="./floorplan.svg" alt="Floor plan of a small house where each room is one of my projects: Dwelly, SprintVault, and TalentSift, whose walls are up and wiring is next." width="100%">
 
 # Hi, I'm Anik
 
 I'm a third-year Computer Engineering student at Mukesh Patel School of Technology Management and Engineering. Mostly I build Android apps in Kotlin and Compose. I like keeping the real rules in the database, so the app can't skip them even if someone tries.
 
-The drawing above is roughly what my GitHub looks like right now: one room people live in, one I helped put up, and one that's still just framing.
+The drawing above is roughly what my GitHub looks like right now: one room people live in, one I helped put up, and one where the walls just went up and the wiring is next.
 
 ## What I'm working on
 
@@ -12,7 +12,7 @@ The drawing above is roughly what my GitHub looks like right now: one room peopl
 |---|---|---|
 | [**Dwelly**](https://github.com/anikumap/dwelly) | Android rental app with separate dashboards for landlords, tenants and an admin. Listings, a community forum, and rental agreements tenants can sign in the app. Access rules live in Postgres row-level security, and there are pgTAP tests for them. | Auth, forum and moderation are done. Listings and agreements are in progress. |
 | [**SprintVault**](https://github.com/anikumap/sprintvault) | Team project. A Scrum board that controls Git: you can only commit against a task, files get locked while someone is editing them, and you can see the commit graph next to the board. | Working prototype |
-| **TalentSift** | Reads resumes and sorts them, so HR teams spend less time on the first pass. | Just started, still private |
+| [**TalentSift**](https://github.com/anikumap/TalentSift) | Hiring for hourly jobs like caregivers, warehouse staff and cashiers. Applicants answer real situations from the job on their phone, and the team gets a ranked shortlist with the evidence quoted. Names stay hidden until a person shortlists someone, candidate data is encrypted, and every decision goes in an audit log. Next.js, TypeScript and Prisma. | MVP works end to end, with unit, integration and Playwright tests. Real AI, email and payments are next. |
 
 ## What I use
 
@@ -34,6 +34,10 @@ The drawing above is roughly what my GitHub looks like right now: one room peopl
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
