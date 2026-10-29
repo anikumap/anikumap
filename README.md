@@ -2,7 +2,7 @@
 
 # Hi, I'm Anik
 
-I'm a third-year Computer Engineering student at Mukesh Patel School of Technology Management and Engineering. I build Android apps in Kotlin and Compose, and lately web apps in TypeScript and Next.js. I like keeping the real rules in the database, so the app can't skip them even if someone tries.
+I'm a third-year Computer Engineering student at Mukesh Patel School of Technology Management and Engineering. I build Android apps in Kotlin and Compose, and lately web apps in TypeScript and Next.js. I built an app that ranks job applicants on evidence, and I'm hoping recruiters don't run it on me.
 
 The drawing above is roughly what my GitHub looks like right now: one room people live in, one I helped put up, and one where the walls just went up and the wiring is next.
 
